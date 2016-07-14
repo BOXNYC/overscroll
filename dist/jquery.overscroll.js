@@ -91,7 +91,7 @@
 
 		// find the name of the overflow scrolling style
 		var overflowScrollingStyle = '';
-		(function(){
+		(function(){ return;
 			var div = dom.createElement('div');
 			var prefixes = ['webkit', 'moz', 'o', 'ms'];
 
